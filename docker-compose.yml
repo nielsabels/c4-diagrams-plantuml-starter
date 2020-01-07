@@ -1,0 +1,8 @@
+version: '2'
+services:
+  plantuml:
+    build:
+      context: .
+    image: plantuml/plantuml-server:jetty
+    ports:
+      - 54321:8080
