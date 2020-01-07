@@ -1,5 +1,6 @@
 {
     "recommendations": [
         "jebbs.plantuml",
+        "gruntfuggly.triggertaskonsave",
     ]
 }
