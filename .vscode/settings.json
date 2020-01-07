@@ -1,0 +1,16 @@
+{
+    "plantuml.diagramsRoot": "/diagrams",
+    "plantuml.exportOutDir" : "/diagrams/out",
+    "plantuml.exportFormat": "png",
+    "plantuml.server": "http://localhost:54321",
+    "plantuml.render": "PlantUMLServer",
+    "triggerTaskOnSave.tasks": {
+        "generatePlantumlPng": [
+            "**/*.wsd",
+            "**/*.pu",
+            "**/*.puml",
+            "**/*.plantuml",
+            "**/*.iuml",
+        ]
+    }
+}
