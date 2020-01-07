@@ -1,0 +1,26 @@
+' based on the official System Context sample: 
+' - https://structurizr.com/share/36141/diagrams#SystemContext
+
+' The following string determines the output filename 
+@startuml "C4 System Context - Internet Banking System"
+
+' Imports the PlantUML C4 templates
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title System Context diagram for Internet Banking System
+
+Person_Ext(personal_banking_customer, "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
+
+System(internet_banking_system, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+
+System_Ext(email_system, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+System_Ext(mainframe_banking_system, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+Rel(personal_banking_customer, internet_banking_system, "Views account balances, and makes payments using")    
+Rel(internet_banking_system, mainframe_banking_system, "Gets account information from, and makes payments using")
+Rel(internet_banking_system, email_system, "Sends e-mail using")
+Rel(email_system, personal_banking_customer, "Sends e-mails to")
+
+@enduml
