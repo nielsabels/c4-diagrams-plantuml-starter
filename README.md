@@ -30,4 +30,4 @@ Docker is required to host a PlantUML server. This server will be used to transl
 
 # Further Reading
 
-- [An introduction to the C4 modelling language](https://lnfabels.wordpress.com/2020/01/02/the-c4-modelling-language/)
+- [An Introduction to the C4 Modelling Language](https://lnfabels.wordpress.com/2020/01/02/the-c4-modelling-language/)
