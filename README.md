@@ -15,9 +15,11 @@ C4 diagrams are part of the C4 modelling language, created by Simon Brown.
 
 [Visual Studio Code](https://code.visualstudio.com/) is used as a source-code editor for the PlantUML markup. VSCode supports previewing the diagram as you are writing it, as well as exporting the diagram upon save.
 
-## Docker
+## Docker / Docker Compose
 
-Docker is required to host a PlantUML server. This server will be used to translate the PlantUML markup to images (`.png`). Click here to read how to install it on [Windows](https://docs.docker.com/docker-for-windows/install/) or [Mac](https://docs.docker.com/docker-for-mac/install/).
+Docker is required to host a PlantUML server. This server will be used to translate the PlantUML markup to images (`.png`). Click here to read how to install it on [Windows](https://docs.docker.com/docker-for-windows/install/) or [Mac](https://docs.docker.com/docker-for-mac/install/). 
+
+After installing Docker, Docker Compose should also be installed. The `scripts\` folder contains scripts for `cmd`, `powershell` and `bash` to start and stop the PlantUML server using Docker Compose.
 
 ## Visual Studio Code Extensions
 
