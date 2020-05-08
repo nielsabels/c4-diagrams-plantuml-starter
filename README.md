@@ -33,3 +33,4 @@ After installing Docker, Docker Compose should also be installed. The `scripts\`
 # Further Reading
 
 - [An Introduction to the C4 Modelling Language](https://lnfabels.wordpress.com/2020/01/02/the-c4-modelling-language/)
+- [An Introduction to the C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML)
